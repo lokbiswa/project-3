@@ -1,0 +1,31 @@
+:root {
+  --bg-color: #f5f5f5;
+  --fg-coller: #fff;
+}
+body {
+  background-color: var(--bg-color);
+}
+#people {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.person {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 10rem;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: var(--fg-coller);
+}
+.container {
+  margin: auto;
+  width: 70%;
+  min-width: 10rem;
+  max-width: 900px;
+}
+.person {
+  text-transform: capitalize;
+}
